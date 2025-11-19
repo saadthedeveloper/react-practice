@@ -4,7 +4,6 @@ function User({ name, major }) {
 
     return (
         <>
-            <hr />
             <h1>PROPS</h1>
             <h2>User: {userName}</h2>
             <h2>Major: {userMajor}</h2>

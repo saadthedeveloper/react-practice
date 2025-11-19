@@ -5,7 +5,7 @@ function DynamicVal(){
     return(
         <>
         <input type="text" placeholder="Hello" onChange={(event)=>{updVal(event.target.value)}}/>
-        <h1>{val}</h1>
+        <h3>{val}</h3>
         </>
     )
 }
