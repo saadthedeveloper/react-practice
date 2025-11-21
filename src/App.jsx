@@ -6,6 +6,8 @@ import Student from "./Props-2";
 import Greetings from "./Props-3"
 import DynamicVal from './DynamicVal';
 import ControlledComp from './ControlledComp';
+import Checkboxes from './Checkboxes';
+
 
 function App(){
   let [name, updName] = useState();
@@ -24,6 +26,7 @@ function App(){
     <hr />
     <ControlledComp />
     <hr />
+    <Checkboxes />
     </>
   )
 }
