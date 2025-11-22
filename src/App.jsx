@@ -8,6 +8,7 @@ import DynamicVal from './DynamicVal';
 import ControlledComp from './ControlledComp';
 import Checkboxes from './Checkboxes';
 import Radio from './Radio';
+import Dropdown from './Dropdown';
 
 
 function App(){
@@ -30,6 +31,8 @@ function App(){
     <Checkboxes />
     <hr />
     <Radio />
+    <hr />
+    <Dropdown />
     <hr />
     </>
   )
