@@ -7,6 +7,7 @@ import Greetings from "./Props-3"
 import DynamicVal from './DynamicVal';
 import ControlledComp from './ControlledComp';
 import Checkboxes from './Checkboxes';
+import Radio from './Radio';
 
 
 function App(){
@@ -27,6 +28,9 @@ function App(){
     <ControlledComp />
     <hr />
     <Checkboxes />
+    <hr />
+    <Radio />
+    <hr />
     </>
   )
 }
