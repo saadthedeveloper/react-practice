@@ -9,6 +9,7 @@ import ControlledComp from './ControlledComp';
 import Checkboxes from './Checkboxes';
 import Radio from './Radio';
 import Dropdown from './Dropdown';
+import Table from './Table';
 
 
 function App(){
@@ -33,6 +34,8 @@ function App(){
     <Radio />
     <hr />
     <Dropdown />
+    <hr />
+    <Table />
     <hr />
     </>
   )
