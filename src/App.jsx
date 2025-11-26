@@ -10,6 +10,7 @@ import Checkboxes from './Checkboxes';
 import Radio from './Radio';
 import Dropdown from './Dropdown';
 import Table from './Table';
+import ComponentLoop from './ComponentLoop';
 
 
 function App(){
@@ -37,6 +38,7 @@ function App(){
     <hr />
     <Table />
     <hr />
+    <ComponentLoop />
     </>
   )
 }
