@@ -11,6 +11,7 @@ import Radio from './Radio';
 import Dropdown from './Dropdown';
 import Table from './Table';
 import ComponentLoop from './ComponentLoop';
+import Clock from './Clock';
 
 
 function App(){
@@ -39,6 +40,9 @@ function App(){
     <Table />
     <hr />
     <ComponentLoop />
+    <hr />
+    <Clock />
+    <hr />
     </>
   )
 }
