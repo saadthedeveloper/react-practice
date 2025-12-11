@@ -13,6 +13,7 @@ import Table from './Table';
 import ComponentLoop from './ComponentLoop';
 import Clock from './Clock';
 import NestedLoop from './NestedLoop';
+import Unmount from './Unmount';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
       <hr />
       <NestedLoop />
       <hr />
+      <Unmount />
     </>
   )
 }

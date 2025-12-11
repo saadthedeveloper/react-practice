@@ -65,7 +65,7 @@ function NestedLoop() {
 
     return (
         <div>
-            <h1 style={{textAlign:"center"}}>DEVON AUTOMOBILE</h1>
+            <h1 style={{textAlign:"center"}}>NESTED LOOP</h1>
             {
                 carData.map((car) =>
                     <Cars car={car} />
