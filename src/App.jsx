@@ -14,6 +14,7 @@ import ComponentLoop from './ComponentLoop';
 import Clock from './Clock';
 import NestedLoop from './NestedLoop';
 import Unmount from './Unmount';
+import InlineCSS from './InlineCSS';
 
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
       <NestedLoop />
       <hr />
       <Unmount />
+      <hr />
+      <InlineCSS />
     </>
   )
 }

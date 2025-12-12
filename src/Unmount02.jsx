@@ -4,9 +4,9 @@ import { useEffect } from "react";
 function Unmount02(){
 
     useEffect(() => {
-        alert("Mounted");
+        console.log("Mounted");
         return () => {
-            alert("Unmounted");
+            console.log("Unmounted");
         };
     }, []);
 
