@@ -15,6 +15,7 @@ import Clock from './Clock';
 import NestedLoop from './NestedLoop';
 import Unmount from './Unmount';
 import InlineCSS from './InlineCSS';
+import ConditionalInlineStyle from './ConditionalInlineStyle';
 
 
 function App() {
@@ -51,6 +52,8 @@ function App() {
       <Unmount />
       <hr />
       <InlineCSS />
+      <hr />
+      <ConditionalInlineStyle />
     </>
   )
 }
