@@ -4,12 +4,7 @@ import Unmount02 from "./Unmount02";
 function Unmount() {
     let [display, setDisplay] = useState(true);
 
-    useEffect(() => {
-        console.log("Mounted");
-        return () => {
-            alert("Unmounted");
-        };
-    }, []);
+    
 
 
     return (

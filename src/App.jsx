@@ -16,6 +16,7 @@ import NestedLoop from './NestedLoop';
 import Unmount from './Unmount';
 import InlineCSS from './InlineCSS';
 import ConditionalInlineStyle from './ConditionalInlineStyle';
+import ExternalCSS from './ExternalCSS';
 
 
 function App() {
@@ -54,6 +55,8 @@ function App() {
       <InlineCSS />
       <hr />
       <ConditionalInlineStyle />
+      <hr />
+      <ExternalCSS />
     </>
   )
 }
