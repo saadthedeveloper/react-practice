@@ -1,13 +1,16 @@
 import './CSS/style.css'
 
-function ExternalCSS(){
-    return(
+function ExternalCSS() {
+    return (
         <div className='container'>
 
-        <div className="block"></div>
-        <div className="block"></div>
-        <div className="block"></div>
-        <div className="block"></div>
+            <h1>External CSS</h1>
+            <div className='wrap'>
+                <div className="block"></div>
+                <div className="block"></div>
+                <div className="block"></div>
+                <div className="block"></div>
+            </div>
         </div>
     )
 }

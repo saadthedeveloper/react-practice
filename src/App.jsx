@@ -17,6 +17,7 @@ import Unmount from './Unmount';
 import InlineCSS from './InlineCSS';
 import ConditionalInlineStyle from './ConditionalInlineStyle';
 import ExternalCSS from './ExternalCSS';
+import ModuleCSS from './ModuleCSS';
 
 
 function App() {
@@ -57,6 +58,9 @@ function App() {
       <ConditionalInlineStyle />
       <hr />
       <ExternalCSS />
+      <hr />
+      <ModuleCSS />
+      <hr />
     </>
   )
 }

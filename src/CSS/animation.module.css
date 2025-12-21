@@ -1,0 +1,23 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+
+}
+
+.ball
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 500px;
+    background-color: red;
+    position: relative;
+    animation: ballMove 2s linear infinite;
+}
+
+@keyframes ballMove {
+  0%   { top: 0; left: 0; }
+  50%  { top: 80px; left: 80px; }
+  100% { top: 0; left: 0; }
+}
