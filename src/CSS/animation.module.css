@@ -2,8 +2,7 @@
     width: 100px;
     height: 100px;
     background-color: black;
-    position: absolute;
-
+    margin-left: 50px;
 }
 
 .ball

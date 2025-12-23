@@ -18,6 +18,7 @@ import InlineCSS from './InlineCSS';
 import ConditionalInlineStyle from './ConditionalInlineStyle';
 import ExternalCSS from './ExternalCSS';
 import ModuleCSS from './ModuleCSS';
+import StyledComponents from './StyledComponents';
 
 
 function App() {
@@ -60,6 +61,8 @@ function App() {
       <ExternalCSS />
       <hr />
       <ModuleCSS />
+      <hr />
+      <StyledComponents />
       <hr />
     </>
   )
