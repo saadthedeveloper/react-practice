@@ -19,6 +19,7 @@ import ConditionalInlineStyle from './ConditionalInlineStyle';
 import ExternalCSS from './ExternalCSS';
 import ModuleCSS from './ModuleCSS';
 import StyledComponents from './StyledComponents';
+import Bootstrap from './Bootstrap'
 
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
       <hr />
       <StyledComponents />
       <hr />
+      <Bootstrap />
     </>
   )
 }
