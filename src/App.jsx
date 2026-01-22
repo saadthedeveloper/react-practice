@@ -20,6 +20,7 @@ import ExternalCSS from './ExternalCSS';
 import ModuleCSS from './ModuleCSS';
 import StyledComponents from './StyledComponents';
 import Bootstrap from './Bootstrap'
+import Useref from './useRef'
 
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
       <StyledComponents />
       <hr />
       <Bootstrap />
+      <hr />
+      <Useref />
     </>
   )
 }
