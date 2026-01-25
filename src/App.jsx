@@ -21,6 +21,7 @@ import ModuleCSS from './ModuleCSS';
 import StyledComponents from './StyledComponents';
 import Bootstrap from './Bootstrap'
 import Useref from './useRef'
+import UncontrolledComponent from './UncontrolledComponent'
 
 
 function App() {
@@ -69,6 +70,8 @@ function App() {
       <Bootstrap />
       <hr />
       <Useref />
+      <hr />
+      <UncontrolledComponent />
     </>
   )
 }
