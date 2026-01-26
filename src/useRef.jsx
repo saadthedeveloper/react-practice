@@ -12,6 +12,7 @@ function Useref(){
     return(
 
         <div>
+            <h1>USEREF</h1>
             <p>Number Of Time Component Rendered: {render.current}</p>
             <p>Name: {name}</p>
             <input type="text" onChange={(e)=>updName(e.target.value)} />

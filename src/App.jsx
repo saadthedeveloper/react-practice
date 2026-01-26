@@ -19,9 +19,10 @@ import ConditionalInlineStyle from './ConditionalInlineStyle';
 import ExternalCSS from './ExternalCSS';
 import ModuleCSS from './ModuleCSS';
 import StyledComponents from './StyledComponents';
-import Bootstrap from './Bootstrap'
-import Useref from './useRef'
-import UncontrolledComponent from './UncontrolledComponent'
+import Bootstrap from './Bootstrap';
+import Useref from './useRef';
+import UncontrolledComponent from './UncontrolledComponent';
+import ForwardRef from './ForwardRef';
 
 
 function App() {
@@ -72,6 +73,9 @@ function App() {
       <Useref />
       <hr />
       <UncontrolledComponent />
+      <hr />
+      <ForwardRef />
+    <hr />
     </>
   )
 }
